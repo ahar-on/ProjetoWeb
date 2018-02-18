@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+
+header, main, footer {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+	height: 200px;
+	width: 1200px;
+	background-position: center;
+}
+
+nav	{
+	position: absolute;
+	right: 10px;
+}
+
+nav li {
+	display: inline;
+	font-size: 120%;
+	background-color: #45C7F5;
+	font-weight: bold;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+	clear: both;
+	font-size: 160%;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	color: #05115D;
+}
+
+h3 {
+	position: relative;
+	text-align: center;
+	clear: both;
+	font-size: 160%;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	color: #B81111;
+}
+
+footer {
+	position: fixed;
+	padding-top: 20px;
+	padding-bottom: 10px;
+   	left: 0px;
+   	right: 0px;
+   	bottom: 0px;
+	clear: both;
+	font-size: 100%;
+	text-align: center;
+	background-color: #45C7F5;
+	color: #ffffff;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+* html footer {
+   position: absolute;
+   top: expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+.borda{
+	padding: 10px;
+	border-radius: 10px;
+}
+
+header h1 {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	text-align: center;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #3A3BB5;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 300%;
+	font-family: 'Rubik', sans-serif;
+}
+
+header h2{
+	position: relative;
+	background-position: absolute;
+	top: 90px;
+	left: 10px;
+	text-align: left;
+	background-color: #45C7F5;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 120%;
+	font-family: sans-serif;
+	border: 30px solid #45C7F5;
+	border-radius: 10px;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 120%;
+	line-height: 150%;
+	margin: 0px;
+}
+
+main {
+	margin-bottom: 50px;
+}
+
+a {
+	text-decoration: none;
+	color : #3A3BB5;
+}
+
+main a {
+	color: #10012B;
+}
+
+a:hover {
+	color: #090C76;
+	text-decoration: none;
+}
+
+figcaption{
+	font-color: #024E00;
+}
+
+strong {
+	font-weight: bold;
+	color: #01193E;
+}
+
+.cor{
+	color: #ffffff;
+}
+
+.navi{
+	top: 107px;
+	left: 1000px;
+	font-size: 70%;
+	font-weight: bold;
+}
+
+.navig{
+	top: 127px;
+	left: 1000px;
+	font-size: 70%;
+	font-weight: bold;
+}

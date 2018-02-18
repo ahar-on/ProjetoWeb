@@ -1,0 +1,33 @@
+.secao1 {
+	position: relative;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+
+.secao2 {
+	position: relative;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	color: #3970FB;
+}
+
+section{
+	border: 1px solid #000000;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+h3{
+	font-size: 100%;
+	color: #102F93;	
+}
+
+input[type=submit]{
+    background-color: #212D4F;
+    color: white;
+    cursor: pointer;
+    position: left;
+}
